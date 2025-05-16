@@ -1,8 +1,8 @@
 import type { CardDataAPI } from '@/api/types';
 import { respectfullyFetch } from '../fetch';
 
-const getRequestURL = (set: string, cn: number) => {
-  return `https://api.scryfall.com/cards/${set.toLowerCase()}/${cn}`;
+const getRequestURL = (set: string, cn: number): URL => {
+  return new URL(`https://api.scryfall.com/cards/${set.toLowerCase()}/${cn}`);
 };
 
 const getCardByCollectorNumber = async (api: CardDataAPI, set: string, cn: number) => {

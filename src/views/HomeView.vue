@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { useAPI } from '@/stores/api';
-import { storeToRefs } from 'pinia';
+// import { useAPI } from '@/stores/api';
+// import { storeToRefs } from 'pinia';
+import { doit } from '@/api/parseDeckExport';
 
-const { api } = storeToRefs(useAPI());
+// const { api } = storeToRefs(useAPI());
 const textContent = ref('');
 onMounted(async () => {
-  const cardData = await api.value?.getCardByCollectorNumber(api.value, 'SCD', 71);
+  // const cardData = await doit();
 
   textContent.value = JSON.stringify(cardData);
 });

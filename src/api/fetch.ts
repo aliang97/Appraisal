@@ -14,9 +14,9 @@ const canRequest = (api: CardDataAPI) => {
   return timeDiffMS >= requiredIntervalMS;
 };
 
-const doFetch = async (url: string) => {
+const doFetch = async (url: URL, params?: RequestInit) => {
   try {
-    const resp = await fetch(url);
+    const resp = await fetch(url, params);
     if (!resp.ok) {
       throw new Error(`Response status: ${resp.status}`);
     }
@@ -27,7 +27,8 @@ const doFetch = async (url: string) => {
   }
 };
 
-const respectfullyFetch = async (api: CardDataAPI, url: string) => {
+// Fetch while respecting rate limits
+const respectfullyFetch = async (api: CardDataAPI, url: URL) => {
   if (canRequest(api)) {
     api.lastRequestTimestamp = new Date();
     return await doFetch(url);
