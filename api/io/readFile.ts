@@ -1,5 +1,9 @@
 import fs from 'node:fs';
 
+const fileExists = (fileName: string) => {
+  return fs.existsSync(fileName);
+};
+
 const readFile = (fileName: string) => {
   try {
     const data = fs.readFileSync(fileName, 'utf8');
@@ -9,4 +13,4 @@ const readFile = (fileName: string) => {
   }
 };
 
-export { readFile };
+export { readFile, fileExists };

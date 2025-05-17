@@ -1,0 +1,151 @@
+
+> appraisal@0.0.0 api
+> node --experimental-transform-types  ./api/index.ts
+
+using cached data for inr - 237
+making new cache file for set tdc
+fetch https://api.scryfall.com/cards/collection
+{
+  '0': [
+    624048, 623982,
+    624163, 624638,
+    624426, 624049,
+    624476, 624439,
+    624347
+  ]
+}
+scraping page: https://www.tcgplayer.com/product/624048/?Language=English
+scraping page: https://www.tcgplayer.com/product/623982/?Language=English
+scraping page: https://www.tcgplayer.com/product/624163/?Language=English
+scraping page: https://www.tcgplayer.com/product/624638/?Language=English
+scraping page: https://www.tcgplayer.com/product/624426/?Language=English
+scraping page: https://www.tcgplayer.com/product/624049/?Language=English
+scraping page: https://www.tcgplayer.com/product/624476/?Language=English
+scraping page: https://www.tcgplayer.com/product/624439/?Language=English
+scraping page: https://www.tcgplayer.com/product/624347/?Language=English
+[
+  {
+    name: 'Arcane Signet',
+    set: 'tdc',
+    collector_number: '105',
+    tcgplayer_id: 624048,
+    priceData: undefined
+  },
+  {
+    name: 'Command Tower',
+    set: 'tdc',
+    collector_number: '107',
+    tcgplayer_id: 623982,
+    priceData: undefined
+  },
+  {
+    name: 'Deep Analysis',
+    set: 'tdc',
+    collector_number: '150',
+    tcgplayer_id: 624163,
+    priceData: undefined
+  },
+  {
+    name: 'Feed the Swarm',
+    set: 'tdc',
+    collector_number: '180',
+    tcgplayer_id: 624638,
+    priceData: undefined
+  },
+  {
+    name: 'Necromantic Selection',
+    set: 'tdc',
+    collector_number: '189',
+    tcgplayer_id: 624426,
+    priceData: undefined
+  },
+  {
+    name: 'Sol Ring',
+    set: 'tdc',
+    collector_number: '106',
+    tcgplayer_id: 624049,
+    priceData: undefined
+  },
+  {
+    name: 'Sunken Hollow',
+    set: 'tdc',
+    collector_number: '398',
+    tcgplayer_id: 624476,
+    priceData: undefined
+  },
+  {
+    name: 'Victimize',
+    set: 'tdc',
+    collector_number: '198',
+    tcgplayer_id: 624439,
+    priceData: undefined
+  },
+  {
+    name: "Wayfarer's Bauble",
+    set: 'tdc',
+    collector_number: '335',
+    tcgplayer_id: 624347,
+    priceData: undefined
+  }
+]
+using cached data for j25 - 399
+using cached data for j25 - 467
+using cached data for drc - 87
+using cached data for drc - 125
+using cached data for drc - 129
+using cached data for drc - 76
+using cached data for drc - 92
+using cached data for drc - 116
+using cached data for drc - 95
+using cached data for drc - 44
+using cached data for drc - 141
+using cached data for drc - 176
+using cached data for drc - 100
+using cached data for mid - 91
+using cached data for mkc - 254
+using cached data for mkc - 132
+using cached data for cmm - 862
+using cached data for cmm - 171
+using cached data for cmm - 172
+using cached data for cmm - 174
+using cached data for cmm - 416
+using cached data for ori - 88
+using cached data for c21 - 138
+using cached data for mic - 148
+using cached data for mic - 120
+using cached data for mic - 122
+using cached data for mic - 126
+using cached data for mic - 129
+using cached data for mic - 131
+using cached data for tdm - 254
+using cached data for tdm - 273
+using cached data for tdm - 274
+using cached data for lcc - 154
+using cached data for war - 196
+using cached data for war - 59
+using cached data for war - 96
+using cached data for war - 111
+using cached data for dka - 37
+using cached data for dsc - 142
+using cached data for c19 - 213
+using cached data for c17 - 173
+using cached data for c17 - 201
+using cached data for fdn - 254
+using cached data for fdn - 615
+using cached data for moc - 253
+using cached data for moc - 255
+using cached data for znc - 133
+using cached data for znc - 141
+using cached data for cmr - 78
+using cached data for cmr - 137
+using cached data for j22 - 435
+using cached data for j22 - 471
+using cached data for m19 - 106
+using cached data for mm3 - 178
+using cached data for 8ed - 325
+using cached data for jmp - 274
+using cached data for grn - 54
+using cached data for ddq - 66
+using cached data for ddh - 62
+using cached data for scg - 80
+using cached data for hop - 45
